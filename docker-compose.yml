@@ -1,0 +1,7 @@
+services:
+  app:
+    build: ./docker/php
+    volumes:
+      - .:/var/www/html
+    expose:
+      - "9000"
