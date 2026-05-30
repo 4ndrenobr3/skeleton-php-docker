@@ -1,0 +1,16 @@
+{
+    "name": "4ndrenobr3/skeleton-php-docker",
+    "description": "Este é um esqueleto de aplicação PHP compatível com PSR, em um ambiente Docker. Ele segue uma arquitetura personalizada semelhante ao MVC.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Andrenobre\\SkeletonPhpDocker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andre Nobre"
+        }
+    ],
+    "require": {}
+}
